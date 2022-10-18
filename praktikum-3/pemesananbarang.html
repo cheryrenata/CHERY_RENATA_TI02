@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>pemesanan barang 3.3</title>
+  </head>
+  <body
+    style="
+      max-width: 1500px;
+      border: 1px solid black;
+      margin: auto;
+      @media only screen and (max-width: 600px);
+    "
+  > 
+    <header style="background-color: lightgray">
+        <h4 align="center">coolstore</h4>
+    <nav
+      style="
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        border-bottom: 1px solid black;
+      "
+    > 
+     <ul
+        style="
+        margin-right: 50px;
+        display: flex;
+        list-style-type: none; gap: 10px;" 
+        >
+         <li >
+            <button>
+            <img
+               style="width: 25px; vertical-align: sub"
+               src="assets/panah-kiri/panah kiri.png"
+               alt=""
+            />
+            </button> 
+            <button> 
+            <img
+            style="width: 25px; vertical-align: sub"
+            src="assets/panah-kanan/panah kanan.png"
+            alt=""
+            /> 
+            </button> 
+            <button>
+            <img  style="width: 20px; vertical-align: sub" src="assets/gambar-X/gambarX.png" alt=""
+            />
+            </button>
+            <button>
+                <img  style="width: 25px; vertical-align: sub" src="assets/rumah/rumah.PNG"
+            />
+            </button>
+            <input class="search" type="text" placeholder="http://" required style="width: 900px" >	
+            <button>
+            <img  style="width: 25px; vertical-align: sub" src="assets/pencarian/pencarian.png" />
+            </button>
+          </li>
+    </ul>
+</nav>
+</header>
+<body style=" margin: 0px;font-family:cursive; background-color:rgb(5, 20, 85);">
+    <nav style=" padding: 20px 65px; background-color:rgb(76, 66, 92); color: rgb(252, 137, 223); align-items: center;">
+        <b>
+            <a href="" style="color: white; text-decoration: none; margin-right: 30px;">HOME |</a>
+            <a href="" style="color: white; text-decoration: none; margin-right: 30px;">REGISTER |</a>
+            <a href="" style="color: white; text-decoration: none; margin-right: 30px;">POLICY |</a>
+            <a href="" style="color: white; text-decoration: none; margin-right: 700px;">ABOUT |</a>
+            <a href="" style="color: white; text-decoration: none;">LOGOUT |</a>
+        </b>
+    </nav>
+    <div style="margin-left: 100px;">
+        <table>
+            <tr>
+                <td>
+                    <img src="assets/macebook/macebook Air M1 (2020).jpg" alt="" height="200" width="200"
+                        style="border: 2px solid rgb(10, 1, 48);border-radius: 4px;padding: 5px; margin-left: 50px; margin-top: 40px;">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="file" style="margin-left:70px;">
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div style="margin-top: -260px; margin-left: 600px;">
+        <form action="hasilpemesananbarang.html">
+            <table>
+                <tr>
+                    <td><label for="nama">Name</label></td>
+                    <td>:</td>
+                    <td><input type="text" name="nama" id="nama" style="width: 300px;" value="Macebook Air 2020"></td>
+                </tr>
+                <tr>
+                    <td><label for="desription">Description</label></td>
+                    <td>:</td>
+                    <td><textarea name="decription" id="decription" cols="21" rows="3" style="width: 300px;">Year : 2020      
+Model :                    
+Condition : Mint</textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="accountnumber">Account Number</label></td>
+                    <td>:</td>
+                    <td><input type="text" name="accountnumber" id="accountnumber" style="width: 300px;"
+                            value="123-456-789-0"></td>
+                </tr>
+                <tr>
+                    <td><label for="bank">Bank</label></td>
+                    <td>:</td>
+                    <td>
+                        <select name="bank" id="bank" style="width: 308px;">
+                            <option value="btn">BTN</option>
+                            <option value="visa">VISA DEBIT</option>
+                            <option value="bca">BCA</option>
+                            <option value="Mandiri">MANDIRI</option>
+                            <option value="cimb">CIMB</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="accountholder">Account Holder</label></td>
+                    <td>:</td>
+                    <td><input type="text" name="accountholder" id="accountholder" style="width: 300px;"
+                            value="chery renata"></td>
+                </tr>
+                <tr>
+                    <td><label for="transaction">Transaction</label></td>
+                    <td>:</td>
+                    <td><input type="number" name="transaction" id="transaction" style="width: 300px;" value="1"></td>
+                </tr>
+                <tr>
+                    <td colspan="2"></td>
+                    <td style="font-size: 10pt;">* if the transaction is for 3 person, choose 3 from drop-down list</td>
+                </tr>
+                <tr>
+                    <td colspan="2"></td>
+                    <td>
+                        <div style="color:blue;"><input type="checkbox" checked>Send to Mobile Phone</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2"></td>
+                    <td>
+                        <div style="color: blue ;"><input type="checkbox" checked>Send to Email</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="telephone">Send to Mobile Phone</label></td>
+                    <td>:</td>
+                    <td><input type="text" id="telephone" name="telephone" style="width: 300px;" value="081213141516">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="email">Send to Email</label></td>
+                    <td>:</td>
+                    <td><input type="text" name="email" id="email" style="width: 300px;" value="renachery7@@gmail.com"></td>
+                </tr>
+                <tr>
+                    <td colspan="2" height="80"></td>
+                    <td>
+                        <button type="submit"
+                            style=" margin-left: 70px; background-color: rgb(42, 13, 87) ; color: white; cursor: pointer;padding: 8px 29px; border-radius: 5px; border: lightgreen;">Generate
+                            Link</button>
+                    </td>
+                </tr>
+            </table>
+
+        </form>
+    </div>
+</body>
+
+
