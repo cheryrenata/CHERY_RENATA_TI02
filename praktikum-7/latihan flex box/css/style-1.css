@@ -1,0 +1,27 @@
+.kotak{
+    border: 3px solid black;
+    width: 150px;
+    height: 700px;
+}
+.item-1 {
+    background-color: yellow;
+}
+
+.item-2 {
+    background-color: blue;
+}
+
+.item-3 {
+    background-color: pink;
+}
+
+.item-4 {
+    background-color: blueviolet;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+
