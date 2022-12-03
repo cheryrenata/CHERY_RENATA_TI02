@@ -1,0 +1,44 @@
+.kotakpink{
+    width: 98%;
+    height: 95px;
+    border-style: solid;
+    margin: 30px;
+    background-color: rgb(210, 122, 122);
+}
+
+
+.kotakpurple{
+    width: 70%;
+    height: 250px;
+    float: right;
+    border-style: solid;
+    background-color: rgb(188, 59, 160);
+}
+
+
+.kotakbiru1{
+    width: 25%;
+    height: 250px;
+    border-style: solid;
+    background-color: rgb(8, 6, 92);
+    margin: 20px
+
+}
+
+
+.kotakgrey{
+    width: 70%;
+    height: 240px;
+    float: right;
+    border-style: solid;
+    background-color: rgb(67, 62, 62);
+}
+
+
+.kotakbiru2{
+    width: 25%;
+    height: 240px;
+    border-style: solid;
+    background-color: rgb(8, 0, 255);
+    margin: 20px;
+}

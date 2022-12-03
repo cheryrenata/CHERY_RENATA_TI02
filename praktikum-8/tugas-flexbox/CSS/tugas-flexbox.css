@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.flex-2 {
+    flex: 2;
+}
+
+.flex-3 {
+    flex: 3;
+}
+
+.flex-none {
+    flex: none;
+}
+
+.flex-auto {
+    flex: auto;
+}
+
+.bg-red {
+    background-color: rgb(181, 46, 46);
+}
+
+.bg-pink {
+    background-color: rgb(186, 32, 57);
+}
+
+.bg-brown {
+    background-color: rgb(74, 3, 3);
+}
+
+.vh-100 {
+    min-height: 100vh;
+}
+
+.h-100 {
+    height: 100%;
+}
+
+.flex-vw-6 {
+    flex: 0 0 6vw;
+}
